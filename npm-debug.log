@@ -1,0 +1,172 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/libexec/openshift/cartridges/c9-0.1/root/bin/node-openshift-v10',
+1 verbose cli   '/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.22
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/1f1177db-tar.lock
+15 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+16 verbose lock tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/4254540c-0634-0-25520950253121555-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+20 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+21 verbose tar unpack /tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+22 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+23 verbose lock tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/16e78ab1-0634-0-25520950253121555-package.lock
+24 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+25 verbose lock tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/4254540c-0634-0-25520950253121555-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 384, 420 ]
+29 silly gunzTarPerm extractEntry 1-built-ins.js
+30 silly gunzTarPerm modified mode [ '1-built-ins.js', 384, 420 ]
+31 silly gunzTarPerm extractEntry 1-hello.js
+32 silly gunzTarPerm modified mode [ '1-hello.js', 384, 420 ]
+33 silly gunzTarPerm extractEntry 2-file-modules.js
+34 silly gunzTarPerm modified mode [ '2-file-modules.js', 384, 420 ]
+35 silly gunzTarPerm extractEntry 3-callback.js
+36 silly gunzTarPerm modified mode [ '3-callback.js', 384, 420 ]
+37 silly gunzTarPerm extractEntry 3-npm-modules.js
+38 silly gunzTarPerm modified mode [ '3-npm-modules.js', 384, 420 ]
+39 silly gunzTarPerm extractEntry mathfun.js
+40 silly gunzTarPerm modified mode [ 'mathfun.js', 384, 420 ]
+41 silly gunzTarPerm extractEntry Readme.txt
+42 silly gunzTarPerm modified mode [ 'Readme.txt', 400, 420 ]
+43 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+44 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+45 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+46 silly lockFile 4254540c-0634-0-25520950253121555-tmp-tgz tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/tmp.tgz
+47 verbose tar pack [ '/var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz',
+47 verbose tar pack   '/tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package' ]
+48 verbose tarball /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+49 verbose folder /tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+50 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+51 verbose lock tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/16e78ab1-0634-0-25520950253121555-package.lock
+52 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+53 verbose lock tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/eff58468-pm-testproject-0-0-2-package-tgz.lock
+54 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+55 silly lockFile 16e78ab1-0634-0-25520950253121555-package tar:///tmp/npm-128409-k3OKvwyJ/1397840350634-0.25520950253121555/package
+56 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+57 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+58 silly lockFile 512959b4-ta-npm-testproject-0-0-2-package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+59 verbose lock /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/512959b4-ta-npm-testproject-0-0-2-package.lock
+60 silly lockFile 512959b4-ta-npm-testproject-0-0-2-package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+61 silly lockFile 512959b4-ta-npm-testproject-0-0-2-package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+62 verbose tar unpack /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+63 silly lockFile 6b0c2539-ta-npm-testproject-0-0-2-package tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+64 verbose lock tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/6b0c2539-ta-npm-testproject-0-0-2-package.lock
+65 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+66 verbose lock tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/eff58468-pm-testproject-0-0-2-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm extractEntry 1-built-ins.js
+70 silly gunzTarPerm extractEntry 1-hello.js
+71 silly gunzTarPerm extractEntry 2-file-modules.js
+72 silly gunzTarPerm extractEntry 3-callback.js
+73 silly gunzTarPerm extractEntry 3-npm-modules.js
+74 silly gunzTarPerm extractEntry mathfun.js
+75 silly gunzTarPerm extractEntry Readme.txt
+76 silly lockFile 6b0c2539-ta-npm-testproject-0-0-2-package tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+77 silly lockFile 6b0c2539-ta-npm-testproject-0-0-2-package tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package
+78 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+79 silly lockFile eff58468-pm-testproject-0-0-2-package-tgz tar:///var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz
+80 verbose chmod /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz 644
+81 verbose chown /var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz [ 6968, 6968 ]
+82 silly lockFile 3a52ce78- .
+83 silly lockFile 3a52ce78- .
+84 silly publish { name: 'testproject',
+84 silly publish   version: '0.0.2',
+84 silly publish   readme: 'ERROR: No README data found!',
+84 silly publish   readmeFilename: 'Readme.txt',
+84 silly publish   _id: 'testproject@0.0.2',
+84 silly publish   dist: { shasum: '6bc086343405618ec62ba5c8670181a30356841e' },
+84 silly publish   _from: '.' }
+85 verbose url raw testproject
+86 verbose url resolving [ 'https://registry.npmjs.org/', './testproject' ]
+87 verbose url resolved https://registry.npmjs.org/testproject
+88 info trying registry request attempt 1 at 12:59:12
+89 http PUT https://registry.npmjs.org/testproject
+90 http 201 https://registry.npmjs.org/testproject
+91 verbose url raw testproject
+92 verbose url resolving [ 'https://registry.npmjs.org/', './testproject' ]
+93 verbose url resolved https://registry.npmjs.org/testproject
+94 info trying registry request attempt 1 at 12:59:12
+95 http GET https://registry.npmjs.org/testproject
+96 http 200 https://registry.npmjs.org/testproject
+97 verbose uploading [ 'testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7',
+97 verbose uploading   '/var/lib/openshift/534ee1dae0b8cd3c6d000394/app-root/data/.npm/testproject/0.0.2/package.tgz' ]
+98 verbose url raw testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+99 verbose url resolving [ 'https://registry.npmjs.org/',
+99 verbose url resolving   './testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7' ]
+100 verbose url resolved https://registry.npmjs.org/testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+101 info trying registry request attempt 1 at 12:59:13
+102 http PUT https://registry.npmjs.org/testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+103 http 403 https://registry.npmjs.org/testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+104 info trying registry request attempt 1 at 12:59:13
+105 http PUT https://registry.npmjs.org/testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+106 http 400 https://registry.npmjs.org/testproject/-/testproject-0.0.2.tgz/-rev/6-d565cb93e37340077e0b3c7e8ec4e2d7
+107 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+107 verbose bad json <html><head>
+107 verbose bad json <title>400 Bad Request</title>
+107 verbose bad json </head><body>
+107 verbose bad json <h1>Bad Request</h1>
+107 verbose bad json <p>Your browser sent a request that this server could not understand.<br />
+107 verbose bad json </p>
+107 verbose bad json </body></html>
+108 error registry error parsing json
+109 error publish Error uploading package
+110 error SyntaxError: Unexpected token <
+110 error <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+110 error <html><head>
+110 error <title>400 Bad Request</title>
+110 error </head><body>
+110 error <h1>Bad Request</h1>
+110 error <p>Your browser sent a request that this server could not understand.<br />
+110 error </p>
+110 error </body></html>
+110 error
+110 error     at Object.parse (native)
+110 error     at RegClient.<anonymous> (/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:23)
+110 error     at Request.self.callback (/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/node_modules/request/index.js:148:22)
+110 error     at Request.EventEmitter.emit (events.js:98:17)
+110 error     at Request.<anonymous> (/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/node_modules/request/index.js:891:14)
+110 error     at Request.EventEmitter.emit (events.js:117:20)
+110 error     at IncomingMessage.<anonymous> (/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/node_modules/request/index.js:842:12)
+110 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+110 error     at _stream_readable.js:920:16
+110 error     at process._tickCallback (node.js:415:13)
+111 error If you need help, you may report this log at:
+111 error     <http://github.com/isaacs/npm/issues>
+111 error or email it to:
+111 error     <npm-@googlegroups.com>
+112 error System Linux 2.6.32-431.11.2.el6.bz844450.x86_64
+113 error command "/usr/libexec/openshift/cartridges/c9-0.1/root/bin/node-openshift-v10" "/usr/libexec/openshift/cartridges/c9-0.1/root/lib-0.10/node_modules/npm/bin/npm-cli.js" "publish" "."
+114 error cwd /var/lib/stickshift/534ee1dae0b8cd3c6d000394/app-root/data/835514
+115 error node -v v0.10.22
+116 error npm -v 1.3.8
+117 error type unexpected_token
+118 verbose exit [ 1, true ]
